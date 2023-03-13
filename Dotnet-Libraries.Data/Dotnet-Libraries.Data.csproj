@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Dotnet_Libraries.Data</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Concrete\EntityFrameworkCore\Configurations\" />
+    <Folder Include="Concrete\EntityFrameworkCore\Context\" />
+    <Folder Include="Concrete\EntityFrameworkCore\Seeds\" />
+    <Folder Include="Concrete\EntityFrameworkCore\Repositories\" />
+  </ItemGroup>
+
+</Project>
